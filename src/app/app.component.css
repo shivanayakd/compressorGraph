@@ -1,0 +1,33 @@
+#canvas {
+    position: relative;
+    z-index: 9999;
+  margin: 25px;
+  border: 1px solid #000;
+  background-color: #333;
+  float: left;
+  clear: both;
+}
+
+.vertical,
+.horizontal {
+    position: relative;
+    z-index: 99;
+  width: 750px;
+  height: 500px;
+}
+
+.vertical {
+  transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  height: 355px;
+  margin-left: 602px;
+}
+
+.vertical input[type="range"] {
+  width: 500px;
+}
+
+input[type="range"] {
+  margin: 25px;
+  width: 750px;
+}
